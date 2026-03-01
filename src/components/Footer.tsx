@@ -8,7 +8,15 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
-            <img src={logo} alt="Murgia F.lli" className="w-12 h-12 rounded-full mb-4" />
+            <div className="flex items-center gap-3 mb-4">
+              <img src={logo} alt="Murgia F.lli" className="w-12 h-12 rounded-full" />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Expert_logo.svg/1200px-Expert_logo.svg.png"
+                alt="Expert City"
+                className="h-8 object-contain"
+                loading="lazy"
+              />
+            </div>
             <p className="font-display text-lg font-semibold mb-2">Murgia F.lli S.n.c.</p>
             <p className="text-sm text-muted-foreground">Expert City Arzana</p>
             <p className="text-sm text-muted-foreground mt-1">Da oltre 20 anni al servizio della Sardegna.</p>
