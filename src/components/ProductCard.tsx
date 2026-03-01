@@ -16,7 +16,7 @@ export default function ProductCard({ product }: { product: Product }) {
     >
       <div className="aspect-square bg-secondary flex items-center justify-center overflow-hidden relative">
         {product.image ? (
-          <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+          <img src={product.image} alt={product.name} className="w-full h-full object-contain p-4 group-hover:scale-110 transition-transform duration-500" loading="lazy" />
         ) : (
           <div className="text-muted-foreground text-4xl font-display">{product.brand[0]}</div>
         )}
