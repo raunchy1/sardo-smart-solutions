@@ -14,7 +14,7 @@ export const ProductProvider = ({ children }: { children: ReactNode }) => {
   const [products, setProducts] = useState<Product[]>(() => {
     const saved = localStorage.getItem("murgia-products");
     const version = localStorage.getItem("murgia-products-version");
-    const CURRENT_VERSION = "3";
+    const CURRENT_VERSION = "4";
     if (saved && version === CURRENT_VERSION) {
       return JSON.parse(saved);
     }
