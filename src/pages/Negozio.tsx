@@ -62,7 +62,7 @@ export default function Negozio() {
               transition={{ delay: 0.2 }}
               className="text-muted-foreground max-w-2xl"
             >
-              Volantino SOTTOPREZZI 26.02–11.03 • Tutti i prezzi reali dal catalogo Expert
+              Volantino SOTTOPREZZI • 215 prodotti reali dal catalogo Expert
             </motion.p>
           </div>
         </div>
