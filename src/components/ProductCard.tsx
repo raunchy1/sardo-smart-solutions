@@ -25,7 +25,10 @@ export default function ProductCard({ product }: { product: Product }) {
         )}
       </div>
       <div className="p-4 space-y-2">
-        <p className="text-xs text-muted-foreground uppercase tracking-wider">{product.brand}</p>
+        <div className="flex items-center justify-between">
+          <p className="text-xs text-muted-foreground uppercase tracking-wider">{product.brand}</p>
+          <span className="text-[9px] text-muted-foreground/60 uppercase">{product.category}</span>
+        </div>
         <h3 className="font-display text-sm font-semibold leading-tight">{product.name}</h3>
         <div className="flex items-center gap-2">
           {product.discountPrice ? (

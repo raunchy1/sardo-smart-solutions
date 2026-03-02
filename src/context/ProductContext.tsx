@@ -13,7 +13,13 @@ const ProductContext = createContext<ProductContextType | undefined>(undefined);
 export const ProductProvider = ({ children }: { children: ReactNode }) => {
   const [products, setProducts] = useState<Product[]>(() => {
     const saved = localStorage.getItem("murgia-products");
-    return saved ? JSON.parse(saved) : defaultProducts;
+    const version = localStorage.getItem("murgia-products-version");
+    const CURRENT_VERSION = "3";
+    if (saved && version === CURRENT_VERSION) {
+      return JSON.parse(saved);
+    }
+    localStorage.setItem("murgia-products-version", CURRENT_VERSION);
+    return defaultProducts;
   });
 
   useEffect(() => {
