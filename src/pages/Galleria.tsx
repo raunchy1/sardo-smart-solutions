@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import SectionWrapper from "@/components/SectionWrapper";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 
 const filters = ["Tutti", "Stufe", "Solare", "Elettrodomestici", "Installazioni Ogliastra"];

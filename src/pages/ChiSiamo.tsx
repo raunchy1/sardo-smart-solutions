@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import SectionWrapper from "@/components/SectionWrapper";
+import SEO from "@/components/SEO";
 import { Award, Heart, Users, MapPin } from "lucide-react";
 
 const values = [

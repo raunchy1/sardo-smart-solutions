@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import SectionWrapper from "@/components/SectionWrapper";
+import SEO from "@/components/SEO";
 import { Flame, Sun, Snowflake, Wrench, Droplets, Zap, Fuel, Search, Brush, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 

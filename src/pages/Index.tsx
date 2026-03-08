@@ -28,6 +28,7 @@ export default function Index() {
 
   return (
     <div>
+      <SEO title="Home" description="Murgia F.lli Expert City Arzana: vendita, installazione e assistenza stufe a pellet, solare termico, elettrodomestici in Sardegna." />
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
