@@ -27,6 +27,7 @@ export default function Galleria() {
 
   return (
     <div>
+      <SEO title="Galleria" description="Guarda i nostri lavori: installazioni stufe, impianti solari e climatizzazione in Ogliastra e tutta la Sardegna." />
       <section className="pt-20 pb-10 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-primary text-sm font-medium uppercase tracking-widest mb-4">I Nostri Lavori</motion.p>

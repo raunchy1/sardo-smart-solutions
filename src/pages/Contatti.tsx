@@ -24,6 +24,7 @@ export default function Contatti() {
 
   return (
     <div>
+      <SEO title="Contatti" description="Contatta Murgia F.lli Expert City Arzana: telefono, email, WhatsApp e mappa. Preventivi gratuiti per stufe, solare e climatizzazione." />
       <section className="pt-20 pb-10 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-primary text-sm font-medium uppercase tracking-widest mb-4">Siamo Qui per Te</motion.p>
