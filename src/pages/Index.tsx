@@ -4,6 +4,7 @@ import { ArrowRight, Flame, Sun, Wrench, Snowflake, Star, MessageCircle } from "
 import { Button } from "@/components/ui/button";
 import SectionWrapper from "@/components/SectionWrapper";
 import ProductCard from "@/components/ProductCard";
+import SEO from "@/components/SEO";
 import { useProducts } from "@/context/ProductContext";
 import heroBg from "@/assets/hero-bg.jpg";
 
@@ -27,6 +28,7 @@ export default function Index() {
 
   return (
     <div>
+      <SEO title="Home" description="Murgia F.lli Expert City Arzana: vendita, installazione e assistenza stufe a pellet, solare termico, elettrodomestici in Sardegna." />
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">

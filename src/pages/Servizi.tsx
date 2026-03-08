@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import SectionWrapper from "@/components/SectionWrapper";
+import SEO from "@/components/SEO";
 import { Flame, Sun, Snowflake, Wrench, Droplets, Zap, Fuel, Search, Brush, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -17,6 +18,7 @@ const services = [
 export default function Servizi() {
   return (
     <div>
+      <SEO title="Servizi" description="Installazione stufe a pellet, solare termico, climatizzazione, caldaie e assistenza tecnica in tutta la Sardegna." />
       <section className="pt-20 pb-10 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-primary text-sm font-medium uppercase tracking-widest mb-4">Soluzioni Complete</motion.p>

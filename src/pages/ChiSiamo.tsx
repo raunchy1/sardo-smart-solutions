@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import SectionWrapper from "@/components/SectionWrapper";
+import SEO from "@/components/SEO";
 import { Award, Heart, Users, MapPin } from "lucide-react";
 
 const values = [
@@ -12,6 +13,7 @@ const values = [
 export default function ChiSiamo() {
   return (
     <div>
+      <SEO title="Chi Siamo" description="Scopri la storia di Murgia F.lli, azienda familiare di Arzana specializzata in stufe, solare termico ed elettrodomestici in Sardegna." />
       <section className="pt-20 pb-10 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-primary text-sm font-medium uppercase tracking-widest mb-4">La Nostra Storia</motion.p>
