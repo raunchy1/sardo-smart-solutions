@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
 import logo from "@/assets/logo-murgia.png";
+import expertLogo from "@/assets/logo-expert-city.png";
 
 export default function Footer() {
   return (
@@ -11,10 +12,9 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <img src={logo} alt="Murgia F.lli" className="w-12 h-12 rounded-full" />
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Expert_logo.svg/1200px-Expert_logo.svg.png"
+                src={expertLogo}
                 alt="Expert City"
-                className="h-8 object-contain"
-                loading="lazy"
+                className="h-10 object-contain"
               />
             </div>
             <p className="font-display text-lg font-semibold mb-2">Murgia F.lli S.n.c.</p>
