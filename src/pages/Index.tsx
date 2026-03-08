@@ -4,6 +4,7 @@ import { ArrowRight, Flame, Sun, Wrench, Snowflake, Star, MessageCircle } from "
 import { Button } from "@/components/ui/button";
 import SectionWrapper from "@/components/SectionWrapper";
 import ProductCard from "@/components/ProductCard";
+import SEO from "@/components/SEO";
 import { useProducts } from "@/context/ProductContext";
 import heroBg from "@/assets/hero-bg.jpg";
 
