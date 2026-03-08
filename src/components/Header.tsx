@@ -28,12 +28,10 @@ export default function Header() {
           <span className="font-display text-lg font-semibold hidden sm:block">Murgia F.lli</span>
           <div className="hidden md:flex items-center gap-1.5 ml-2 border-l border-border/50 pl-3">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Expert_logo.svg/1200px-Expert_logo.svg.png"
+              src={expertLogo}
               alt="Expert City"
-              className="h-5 object-contain"
-              loading="lazy"
+              className="h-7 object-contain"
             />
-            <span className="text-[10px] text-muted-foreground leading-tight">Affiliato<br/>Expert City</span>
           </div>
         </Link>
 
