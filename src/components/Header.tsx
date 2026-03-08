@@ -4,6 +4,7 @@ import { ShoppingCart, Menu, X } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "@/assets/logo-murgia.png";
+import expertLogo from "@/assets/logo-expert-city.png";
 
 const navLinks = [
   { to: "/", label: "Home" },

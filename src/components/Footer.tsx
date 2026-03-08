@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
 import logo from "@/assets/logo-murgia.png";
+import expertLogo from "@/assets/logo-expert-city.png";
 
 export default function Footer() {
   return (
